@@ -1,0 +1,26 @@
+# Node
+node_modules
+.next
+out
+.DS_Store
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__
+*.py[cod]
+*.pyo
+*.env
+*.sqlite3
+.venv
+venv/
+__pypackages__/
+
+# Docker
+*.log
+*.pid
+**/dist
