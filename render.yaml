@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: rakshak-backend
+    env: docker
+    plan: starter
+    region: oregon
+    dockerfilePath: backend/Dockerfile
+    buildCommand: ''
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: OPENAI_API_KEY
+        value: ''
+        fromTeam: false
+      - key: JWT_SECRET
+        value: ''
+        fromTeam: false
+      - key: DATABASE_URL
+        value: ''
+        fromTeam: false
