@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { SiteNav } from '../components/nav';
 import { SectionCard } from '../components/section-card';

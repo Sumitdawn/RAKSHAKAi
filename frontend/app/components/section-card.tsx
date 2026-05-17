@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 
 export function SectionCard({ title, description, accent }: { title: string; description: string; accent?: string }) {

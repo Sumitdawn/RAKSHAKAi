@@ -1,6 +1,4 @@
 const nextConfig = {
-  // typedRoutes moved out of experimental in newer Next versions
-  typedRoutes: true,
   images: {
     remotePatterns: [
       {
@@ -9,7 +7,6 @@ const nextConfig = {
       },
     ],
   },
-
 };
 
 export default nextConfig;
